@@ -16,18 +16,18 @@ int MenuWindow::menu() {
     sf::Texture background;
     sf::Sprite backgroundImage;
 
-    if (!background.loadFromFile("/home/willi/CLionProjects/untitled/doc/background.png"))
+    if (!background.loadFromFile("/home/willi/CLionProjects/AchtungKurve/doc/background.png"))
         std::cout << "Error: Could not display Alaskan Wilderness image" << std::endl;
 
     backgroundImage.setTexture(background);
 
     sf::Font font;
-    if (!font.loadFromFile("/home/willi/CLionProjects/untitled/doc/geekabyte2.ttf"))
+    if (!font.loadFromFile("/home/willi/CLionProjects/AchtungKurve/doc/geekabyte2.ttf"))
         std::cout << "Can't find the font file" << std::endl;
 
     sf::Texture infoButton;
     sf::Sprite infoButtonImage;
-    if (!infoButton.loadFromFile("/home/willi/CLionProjects/untitled/doc/info.png"))
+    if (!infoButton.loadFromFile("/home/willi/CLionProjects/AchtungKurve/doc/info.png"))
         std::cout << "Can't find the image" << std::endl;
     infoButtonImage.setPosition(50.0f, 120.0f);
     infoButtonImage.setScale(0.01, 0.01);
@@ -39,7 +39,7 @@ int MenuWindow::menu() {
     /*
     sf::Texture exitButton;
     sf::Sprite exitButtonImage;
-    if ( !exitButton.loadFromFile( "/home/willi/CLionProjects/untitled/doc/button.png" ) )
+    if ( !exitButton.loadFromFile( "/home/willi/CLionProjects/AchtungKurve/doc/button.png" ) )
         std::cout << "Can't find the image" << std::endl;
     exitButtonImage.setPosition( 50.0f, 500.0f );
 

@@ -13,7 +13,7 @@ int GameWindow::game()  {
     sf::Texture background;
     sf::Sprite backgroundImage;
 
-    if (!background.loadFromFile("/home/willi/CLionProjects/untitled/doc/background.png"))
+    if (!background.loadFromFile("/home/willi/CLionProjects/AchtungKurve/doc/background.png"))
         std::cout << "Error: Could not display Alaskan Wilderness image" << std::endl;
 
     backgroundImage.setTexture(background);
